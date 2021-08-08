@@ -68,7 +68,7 @@ The Dataset Contains Health Related Parameters Of The Customers, The Premium Pri
    Using the trained model to predict test data using predict()
    ![image](https://user-images.githubusercontent.com/88583319/128622622-32f066da-24c3-4238-82ea-19ea2074a8d8.png)
    
-###5. Evaluate The Model
+### 5. Evaluate The Model
    Evaluate the model on test data using MAE and MAPE
  Based on the linear regression model, the Mean Absolute Error (MAE) value is 25 and the Mean Absolute Percentage Error (MAPE) value is 28.
 On averange, our prediction deviates the true Premium Price by 2624.7. Moreover, this 2624.7is equivalent to 12% deviation relative to the true Premium Price.
