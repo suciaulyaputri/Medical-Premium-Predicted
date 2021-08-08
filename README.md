@@ -45,9 +45,12 @@ The Dataset Contains Health Related Parameters Of The Customers, The Premium Pri
 ### 2. Fit the model on training data
    Build and train the model on the training data using lm() function
 ### 3. Model Diagnostic
-   Interpret and pre-evaluate the model
-   Summary(model_object)
-   Residual Diagnostic
+  
+ -Interpret and pre-evaluate the model
+  
+ -Summary(model_object)
+  
+ -Residual Diagnostic
     
    • 	Residual Plot
    
@@ -58,16 +61,20 @@ The Dataset Contains Health Related Parameters Of The Customers, The Premium Pri
    ![image](https://user-images.githubusercontent.com/88583319/128622578-ac49b108-b32b-45f7-a6e0-618c291d7181.png)
     
    •	Residual Normally
+   
+   ![image](https://user-images.githubusercontent.com/88583319/128622604-b66def67-399f-404c-a5b5-2fcdf3757667.png)
     
 ### 4. Predict Data
    Using the trained model to predict test data using predict()
    ![image](https://user-images.githubusercontent.com/88583319/128622622-32f066da-24c3-4238-82ea-19ea2074a8d8.png)
    
-### 5. Evaluate The Model
+###5. Evaluate The Model
    Evaluate the model on test data using MAE and MAPE
- 
+ Based on the linear regression model, the Mean Absolute Error (MAE) value is 25 and the Mean Absolute Percentage Error (MAPE) value is 28.
 On averange, our prediction deviates the true Premium Price by 2624.7. Moreover, this 2624.7is equivalent to 12% deviation relative to the true Premium Price.
 
-## Summary
+# Summary
 
-Based on linear regression, the Mean Absolute Percentage Error(MAPE) value is 12%. The MAPE value is 12% indicates that the prediction results are accurate and can be used to estimate premium prices in the following year. 
+Based on the linear regression model, the Mean Absolute Error (MAE) value is 25 and the Mean Absolute Percentage Error (MAPE) value is 28.
+On averange, our prediction deviates the true Premium Price by 2624.7. Moreover, this 2624.7is equivalent to 12% deviation relative to the true Premium Price.
+The MAPE value is 12% indicates that the prediction results are accurate and can be used to estimate premium prices in the following year. 
