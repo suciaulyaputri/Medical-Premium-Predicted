@@ -48,10 +48,21 @@ The Dataset Contains Health Related Parameters Of The Customers, The Premium Pri
    Interpret and pre-evaluate the model
    Summary(model_object)
    Residual Diagnostic
-    • 	Residual Plot
-    •	Residual Normally
+    
+   • 	Residual Plot
+   
+   ![image](https://user-images.githubusercontent.com/88583319/128622590-4970740a-2869-429c-910b-bc23c9a62166.png)
+    
+   • 	Residual Plot using ggplot2
+    
+   ![image](https://user-images.githubusercontent.com/88583319/128622578-ac49b108-b32b-45f7-a6e0-618c291d7181.png)
+    
+   •	Residual Normally
+    
 ### 4. Predict Data
    Using the trained model to predict test data using predict()
+   ![image](https://user-images.githubusercontent.com/88583319/128622622-32f066da-24c3-4238-82ea-19ea2074a8d8.png)
+   
 ### 5. Evaluate The Model
    Evaluate the model on test data using MAE and MAPE
  
