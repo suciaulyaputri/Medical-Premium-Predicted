@@ -1,4 +1,9 @@
 # Medical Premium Predicted
+To predict medical insurance premium and the result can be used to estimate premium prices in the following year. 
+
+### About this Project
+
+This project is focused on making predictions models of medical insurance premium. By applying a linear regression model and evaluating the model, I will illustrate that whether the predictions model results are accurate and can be used to estimate premium prices in the following year. 
 
 ## Medical Insurance Premium 
 A medical insurance premium is an upfront payment made on behalf of an individual or family in order to keep their health insurance policy active.
@@ -45,26 +50,21 @@ The Dataset Contains Health Related Parameters Of The Customers, The Premium Pri
    Build and train the model on the training data using lm() function
 ### 3. Model Diagnostic
   
- -Interpret and pre-evaluate the model
+ Interpret and pre-evaluate the model
   
- -Summary(model_object)
+ -Model's Summary
  
  ![image](https://user-images.githubusercontent.com/88583319/129437689-402dc97d-a648-4efd-a453-bde2d3eceaf3.png)
 
+  The model with an adjusted R-square value of 0.6225. The adjusted R-square value indicates that 62.25% total variation of PremiumPrice can be explained by all the features.
   
- -Residual Diagnostic
+ - Model's Residual Diagnostic
     
    • 	Residual Plot
    
-   ![image](https://user-images.githubusercontent.com/88583319/128622590-4970740a-2869-429c-910b-bc23c9a62166.png)
-    
-   • 	Residual Plot using ggplot2
-    
-   ![image](https://user-images.githubusercontent.com/88583319/128622578-ac49b108-b32b-45f7-a6e0-618c291d7181.png)
-    
-   •	Residual Normally
+   ![image](https://user-images.githubusercontent.com/88583319/129439319-ec1f6464-cfc8-4cae-995c-a00cc4514892.png)
    
-   ![image](https://user-images.githubusercontent.com/88583319/128622604-b66def67-399f-404c-a5b5-2fcdf3757667.png)
+ The model diagnostic plots above show that the linear regression model fits the data well. There is a straight-line relationship between the residual and the fitted_value, residuals have a constant variance, and residuals are normally distributed.
     
 ### 4. Predict Data
    Using the trained model to predict test data using predict()
