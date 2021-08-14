@@ -7,8 +7,7 @@ A medical insurance premium is an upfront payment made on behalf of an individua
 
 A Medical Insurance Company Has Released Data For Almost 1000 Customers. The Data Is Voluntarily Given By Customers. 
 The Dataset Contains Health Related Parameters Of The Customers, The Premium Price Is In INR(₹) Currency And Showcases Prices For A Whole Year.
-
-•	Source Data: https://www.kaggle.com/tejashvi14/medical-insurance-premium-prediction  
+[Source Data](https://www.kaggle.com/tejashvi14/medical-insurance-premium-prediction)
 
 •	Data Dictionary:
     
@@ -76,5 +75,5 @@ On averange, our prediction deviates the true Premium Price by 2624.7. Moreover,
 # Summary
 
 Based on the linear regression model, the Mean Absolute Error (MAE) value is 25 and the Mean Absolute Percentage Error (MAPE) value is 28.
-On averange, our prediction deviates the true Premium Price by 2624.7. Moreover, this 2624.7is equivalent to 12% deviation relative to the true Premium Price.
+On averange, our prediction deviates the true Premium Price by 2624.7. Moreover, this 2624.7 is equivalent to 12% deviation relative to the true Premium Price.
 The MAPE value is 12% indicates that the prediction results are accurate and can be used to estimate premium prices in the following year. 
