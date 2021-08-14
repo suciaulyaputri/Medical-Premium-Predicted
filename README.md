@@ -48,6 +48,9 @@ The Dataset Contains Health Related Parameters Of The Customers, The Premium Pri
  -Interpret and pre-evaluate the model
   
  -Summary(model_object)
+ 
+ ![image](https://user-images.githubusercontent.com/88583319/129437689-402dc97d-a648-4efd-a453-bde2d3eceaf3.png)
+
   
  -Residual Diagnostic
     
