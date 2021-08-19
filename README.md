@@ -1,7 +1,7 @@
 # Medical Premium Predicted
 To predict medical insurance premium and the result can be used to estimate premium prices in the following year. 
 
-### About this Project
+### About 
 
 This project is focused on making predictions models of medical insurance premium. By applying a linear regression model and evaluating the model, I will illustrate that whether the predictions model results are accurate and can be used to estimate premium prices in the following year. 
 
